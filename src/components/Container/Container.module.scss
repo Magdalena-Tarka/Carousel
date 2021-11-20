@@ -1,0 +1,15 @@
+@import '../../styles/settings.scss';
+
+.root {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  @include medium {
+    width: 98%;
+  }
+
+  @include small {
+    width: 100%;
+  }
+}

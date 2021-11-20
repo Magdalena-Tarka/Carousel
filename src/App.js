@@ -1,9 +1,13 @@
 import React from 'react';
+import Container from './components/Container/Container';
+import Carousel from './components/Carousel/Carousel';
 
 function App() {
   return (
-    <div className="App">
-      hello
+    <div>
+      <Container>
+        <Carousel />
+      </Container>
     </div>
   );
 }
